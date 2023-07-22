@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    padding: 6px 10px;
+
+    .item {
+        font-size: 24px;
+        cursor: pointer;
+        background-color: rgb(145, 231, 234);
+        padding: 6px 16px;
+        border-radius: 10px;
+    }
+
+    .item:hover {
+       color: rgb(145, 231, 234);
+       background-color: black;
+    }
+}

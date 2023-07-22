@@ -1,0 +1,45 @@
+.container {
+    background-color: cadetblue;
+    .title {
+        text-align: center;
+        padding: 6px 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .weather {
+        box-shadow: 2px 2px 0px 0px #000;
+        padding: 6px 10px;
+
+        .items {
+            background-color: aquamarine;
+            padding: 6px 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            margin-top: 10px;
+
+            .input {
+                width: 400px;
+                padding: 16px 20px;
+                border-radius: 10px;
+            }
+
+            .button {
+                padding: 6px 10px;
+                color: black;
+                background-color: rgb(255, 206, 143);
+                border-radius: 10px;
+            }
+
+            .button:hover {
+                color: rgb(255, 157, 30);
+                background-color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
