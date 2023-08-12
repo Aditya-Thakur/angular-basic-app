@@ -33,12 +33,14 @@
                 color: black;
                 background-color: rgb(255, 206, 143);
                 border-radius: 10px;
+                border: 2px solid black;
             }
 
             .button:hover {
                 color: rgb(255, 157, 30);
                 background-color: black;
                 cursor: pointer;
+                border: 2px solid rgb(255, 157, 30);
             }
         }
     }
